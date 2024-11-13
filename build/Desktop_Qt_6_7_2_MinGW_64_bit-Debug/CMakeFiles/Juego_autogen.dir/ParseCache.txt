@@ -2204,7 +2204,6 @@ C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica II/ProyectoFinal/Jueg
  mdp:C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h
  mdp:C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica II/ProyectoFinal/Juego/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Juego_autogen/moc_predefs.h
  mdp:C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica II/ProyectoFinal/Juego/ventana.h
-C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica II/ProyectoFinal/Juego/logindialog.cpp
 C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica II/ProyectoFinal/Juego/nivel.h
  mmc:Q_OBJECT
  mdp:C:/Qt/6.7.2/mingw_64/include/QtCore/QList
@@ -2605,6 +2604,7 @@ C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica II/ProyectoFinal/Jueg
  mdp:C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica II/ProyectoFinal/Juego/nivel.h
  mdp:C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica II/ProyectoFinal/Juego/ventana.h
 C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica II/ProyectoFinal/Juego/objeto.cpp
+C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica II/ProyectoFinal/Juego/logindialog.cpp
 C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica II/ProyectoFinal/Juego/main.cpp
 C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica II/ProyectoFinal/Juego/mainwindow.cpp
 C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica II/ProyectoFinal/Juego/nivelwindow.cpp

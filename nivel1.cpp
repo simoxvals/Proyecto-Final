@@ -42,7 +42,7 @@ Nivel1::Nivel1(QWidget *parent)
 
     timerLanzamientoHachas = new QTimer(this);
     connect(timerLanzamientoHachas, &QTimer::timeout, this, &Nivel1::lanzarHacha);
-    timerLanzamientoHachas->start(3000);
+    timerLanzamientoHachas->start(3100);
 }
 
 Nivel1::~Nivel1() {
@@ -62,6 +62,7 @@ void Nivel1::lanzarHacha() {
 
 
 void Nivel1::inicializarEscena() {
+
     QGraphicsPixmapItem* fondo = new QGraphicsPixmapItem();
     QPixmap imagenFondo(":/fondo.jpg");
     imagenFondo = imagenFondo.scaled(800, 600, Qt::KeepAspectRatioByExpanding);
@@ -76,6 +77,7 @@ void Nivel1::inicializarEscena() {
 }
 
 void Nivel1::keyPressEvent(QKeyEvent *event) {
+
     if (event->key() == Qt::Key_W) {
         bart->saltar();
     } else if (event->key() == Qt::Key_A) {
@@ -101,8 +103,9 @@ void Nivel1::verificarColisiones() {
         if (bart->collidesWithItem(hacha) && !hacha->isEliminada()) {
             bart->golpear();
             scene->removeItem(hacha);
+            delete hacha;
             parca->hachasLanzadas.removeAt(i);
-        --i;
+            --i;
         }
     }
 
