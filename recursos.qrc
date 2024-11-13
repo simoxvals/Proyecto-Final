@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Menu.jpg</file>
+        <file>inicio2.jpg</file>
+        <file>musica.mp3</file>
+        <file>bart.png</file>
+        <file>gema.png</file>
+        <file>parca.png</file>
+        <file>fondo.jpg</file>
+        <file>hacha.png</file>
+    </qresource>
+</RCC>
