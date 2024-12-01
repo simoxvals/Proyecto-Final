@@ -1,19 +1,11 @@
 #include "registerdialog.h"
-#include <QLineEdit>
-#include <QPushButton>
-#include <QVBoxLayout>
-#include <QLabel>
-#include <QMessageBox>
-#include <QFile>
-#include <QTextStream>
 
-RegisterDialog::RegisterDialog(QWidget *parent)
-    : QDialog(parent)
+RegisterDialog::RegisterDialog(QWidget *parent) : QDialog(parent)
 {
-    setWindowTitle("Registro");
-    setFixedSize(300, 200);
+    setWindowTitle("Registrate que no te arrepentiras");
+    setFixedSize(300,200);
 
-    QLabel *usuarioLabel = new QLabel("Usuario:", this);
+    QLabel *usuarioLabel = new QLabel("Usuario", this);
     usuarioLineEdit = new QLineEdit(this);
 
     QLabel *contrasenaLabel = new QLabel("Contraseña:", this);

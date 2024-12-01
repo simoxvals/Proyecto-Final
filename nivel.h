@@ -4,17 +4,18 @@
 #include <QMainWindow>
 #include <QLabel>
 #include <QPushButton>
-#include "ventana.h"
+#include <QResizeEvent>
+#include "nivel1.h"
 
 class NivelWindow : public QMainWindow
 {
     Q_OBJECT
 
 public:
-    explicit NivelWindow(QWidget *parent = nullptr);
-    ~NivelWindow();
+    NivelWindow();
+    void resizeEvent(QResizeEvent *event);
 
-private slots:
+public slots:
     void jugarNivel1();
     void jugarNivel2();
 

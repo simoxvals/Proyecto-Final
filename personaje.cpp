@@ -1,10 +1,6 @@
-
-
-
 #include "personaje.h"
 
-Personaje::Personaje(int x, int y, int salud, QObject *parent)
-    : QObject(parent), QGraphicsPixmapItem(), salud(salud), velocidad(10), velocidadY(0), enSuelo(true), golpeado(false)
+Personaje::Personaje(int x, int y, int salud) : QGraphicsPixmapItem(), salud(salud), velocidad(10), velocidadY(0), enSuelo(true)
 {
     setPos(x, y);
 
@@ -15,55 +11,65 @@ Personaje::Personaje(int x, int y, int salud, QObject *parent)
     connect(retrocesoTimer, &QTimer::timeout, this, &Personaje::actualizarRetroceso);
 }
 
-void Personaje::reducirSalud(int cantidad) {
+void Personaje::reducirSalud(int cantidad)
+{
     salud -= cantidad;
 }
 
-int Personaje::getSalud() const {
+int Personaje::getSalud() const
+{
     return salud;
 }
 
-void Personaje::saltar() {
-    if (enSuelo) {
+void Personaje::saltar()
+{
+    if (enSuelo || enElPuente)
+    {
         velocidadY = -20;
         enSuelo = false;
+        enElPuente = false;
         saltoTimer->start(30);
     }
 }
 
-void Personaje::actualizarSalto() {
+
+void Personaje::actualizarSalto()
+{
     setPos(x(), y() + velocidadY);
     velocidadY += 2;
 
-    if (y() >= 500) {
-        setPos(x(), 500);
+    if (y() >= 480)
+    {
+        setPos(x(), 480);
         enSuelo = true;
         velocidadY = 0;
         saltoTimer->stop();
     }
 }
 
-void Personaje::aplicarEmpuje(int fuerzaX, int fuerzaY) {
+void Personaje::aplicarEmpuje(int fuerzaX, int fuerzaY)
+{
     velocidad = fuerzaX;
     velocidadY = fuerzaY;
 }
 
-void Personaje::recibirGolpe() {
-    golpeado = true;
+void Personaje::recibirGolpe()
+{
     velocidadY = -15;
     velocidad = -10;
     retrocesoTimer->start(30);
 }
 
-void Personaje::actualizarRetroceso() {
+void Personaje::actualizarRetroceso()
+{
     setPos(x() + velocidad, y() + velocidadY);
     velocidadY += 2;
 
-    if (y() >= 500) {
-        setPos(x(), 500);
+    if (y() >= 480)
+    {
+        setPos(x(), 480);
         velocidad = 10;
         velocidadY = 0;
-        golpeado = false;
         retrocesoTimer->stop();
     }
 }

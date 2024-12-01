@@ -2,17 +2,25 @@
 #define LOGINDIALOG_H
 
 #include <QDialog>
+#include <QLineEdit>
+#include <QPushButton>
+#include <QVBoxLayout>
+#include <QLabel>
+#include <QMessageBox>
+#include <QFile>
+#include <QTextStream>
 
-class QLineEdit;
+
 
 class LoginDialog : public QDialog
 {
     Q_OBJECT
 
 public:
-    explicit LoginDialog(QWidget *parent = nullptr);
+    LoginDialog(QWidget *parent = nullptr);
+    static QString usuarioGlobal;
 
-private slots:
+public slots:
     void verificarCredenciales();
 
 private:

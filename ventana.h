@@ -6,21 +6,23 @@
 #include <QPushButton>
 #include <QResizeEvent>
 #include <QMediaPlayer>
+#include "registerdialog.h"
+#include "logindialog.h"
+#include "nivel.h"
+
 
 class Ventana : public QMainWindow
 {
     Q_OBJECT
 
 public:
-    explicit Ventana(QWidget *parent = nullptr);
-    ~Ventana();
-
-protected:
+    Ventana();
     void resizeEvent(QResizeEvent *event);
 
-private slots:
+public slots:
     void onBotonIniciarSesionClicked();
     void onBotonRegistroClicked();
+
 private:
     QLabel *fondo;
     QPushButton *botonRegistro;

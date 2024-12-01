@@ -2,22 +2,29 @@
 #define REGISTERDIALOG_H
 
 #include <QDialog>
+#include <QLineEdit>
+#include <QPushButton>
+#include <QLabel>
+#include <QTextStream>
+#include <QFile>
+#include <QVBoxLayout>
+#include <QMessageBox>
 
-class QLineEdit;
 
 class RegisterDialog : public QDialog
 {
     Q_OBJECT
-
-public:
-    explicit RegisterDialog(QWidget *parent = nullptr);
-
-private slots:
-    void registrarUsuario();
-
 private:
     QLineEdit *usuarioLineEdit;
     QLineEdit *contrasenaLineEdit;
+
+public:
+    RegisterDialog(QWidget *parent = nullptr);
+
+public slots:
+    void registrarUsuario();
+
 };
 
 #endif // REGISTERDIALOG_H
+

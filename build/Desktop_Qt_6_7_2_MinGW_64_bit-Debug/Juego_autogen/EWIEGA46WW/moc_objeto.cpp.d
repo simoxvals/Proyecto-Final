@@ -1,6 +1,5 @@
 C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica\ II/ProyectoFinal/Juego/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Juego_autogen/EWIEGA46WW/moc_objeto.cpp: C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica\ II/ProyectoFinal/Juego/objeto.h \
   C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica\ II/ProyectoFinal/Juego/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Juego_autogen/moc_predefs.h \
-  C:/Qt/6.7.2/mingw_64/include/QtCore/QObject \
   C:/Qt/6.7.2/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/q20memory.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/q20type_traits.h \

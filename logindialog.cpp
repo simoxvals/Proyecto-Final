@@ -1,14 +1,7 @@
 #include "logindialog.h"
-#include <QLineEdit>
-#include <QPushButton>
-#include <QVBoxLayout>
-#include <QLabel>
-#include <QMessageBox>
-#include <QFile>
-#include <QTextStream>
 
-LoginDialog::LoginDialog(QWidget *parent)
-    : QDialog(parent)
+
+LoginDialog::LoginDialog(QWidget *parent): QDialog(parent)
 {
     setWindowTitle("Iniciar Sesión");
     setFixedSize(300, 200);
@@ -33,13 +26,16 @@ LoginDialog::LoginDialog(QWidget *parent)
     setLayout(layout);
 }
 
+QString LoginDialog::usuarioGlobal = "";
+
 void LoginDialog::verificarCredenciales()
 {
     QString usuario = usuarioLineEdit->text();
     QString contrasena = contrasenaLineEdit->text();
 
     QFile archivo("data.txt");
-    if (!archivo.open(QIODevice::ReadOnly | QIODevice::Text)) {
+    if (!archivo.open(QIODevice::ReadOnly | QIODevice::Text))
+    {
         QMessageBox::warning(this, "Error", "No se pudo abrir el archivo de datos.");
         return;
     }
@@ -50,7 +46,8 @@ void LoginDialog::verificarCredenciales()
     while (!in.atEnd()) {
         QString linea = in.readLine();
         QStringList datos = linea.split(",");
-        if (datos.size() == 2 && datos[0] == usuario && datos[1] == contrasena) {
+        if (datos.size() == 2 && datos[0] == usuario && datos[1] == contrasena)
+        {
             credencialesCorrectas = true;
             break;
         }
@@ -58,7 +55,9 @@ void LoginDialog::verificarCredenciales()
 
     archivo.close();
 
-    if (credencialesCorrectas) {
+    if (credencialesCorrectas)
+    {
+        usuarioGlobal = usuario;
         accept();
     } else {
         QMessageBox::warning(this, "Error", "Usuario o contraseña incorrectos.");

@@ -1,49 +1,62 @@
 #ifndef NIVEL1_H
 #define NIVEL1_H
 
-#include <QWidget>
+#include <QMainWindow>
 #include <QGraphicsScene>
 #include <QGraphicsView>
+#include <QMediaPlayer>
+#include <QAudioOutput>
 #include <QTimer>
+#include <QKeyEvent>
+#include <QGraphicsTextItem>
+#include <QMessageBox>
+#include <QGraphicsPixmapItem>
+#include <QPixmap>
+#include "logindialog.h"
 #include "bart.h"
 #include "parca.h"
 #include "gema.h"
-#include <QLabel>
-#include <QGraphicsScene>
-#include <QKeyEvent>
+#include "hacha.h"
 
-class Nivel1 : public QWidget {
+
+class Nivel1 : public QMainWindow
+{
     Q_OBJECT
 
 public:
-    explicit Nivel1(QWidget *parent = nullptr);
-    ~Nivel1();
-
-private slots:
-    void verificarColisiones();
-    void finalizarNivel();
+    Nivel1();
+    void keyPressEvent(QKeyEvent *event);
+    void inicializarEscena();
 
 public slots:
+    void verificarColisiones();
+    void finalizarNivelgemas();
+    void finalizarNivelhachas();
+    void finalizarNivelfuegos();
     void lanzarHacha();
-
-protected:
-    void keyPressEvent(QKeyEvent *event) override;
+    void lanzarFuego();
 
 private:
-    QGraphicsScene *scene;
-    QGraphicsView *view;
     Bart *bart;
     Parca *parca;
+    QGraphicsScene *scene;
+    QGraphicsView *view;
+    QGraphicsRectItem *suelo;
+    QGraphicsTextItem* puntajeTexto;
+    QTimer *timerColisiones;
+    QTimer *timerLanzamientoHachas;
+    QMediaPlayer *ParcaS;
+    QMediaPlayer *GemaS;
     QList<Gema*> gemas;
-    QTimer *timer;
+    QList <QGraphicsRectItem*> paredes;
+    QList <QGraphicsRectItem*> puentes;
+    QVector<QGraphicsPixmapItem*> gemasRecolectadasImagenes;
     int gemasRecolectadas;
-    void inicializarEscena();
+    int puntaje;
     double velocidadY;
     double gravedad;
     bool enSuelo;
-    QTimer *timerLanzamientoHachas;
-    QTimer *hachaTimer;
+
 };
 
 #endif // NIVEL1_H
-

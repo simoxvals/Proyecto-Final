@@ -4,13 +4,11 @@
 #include <QMainWindow>
 #include "ventana.h"
 
-class MainWindow : public QMainWindow
+class MainWindow
 {
-    Q_OBJECT
 
 public:
-    explicit MainWindow(QWidget *parent = nullptr);
-    ~MainWindow();
+    MainWindow();
 
 private:
     Ventana *ventana;

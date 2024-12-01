@@ -40,6 +40,10 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         gema.h gema.cpp
         parca.h parca.cpp
         hacha.h hacha.cpp
+        fuego.h fuego.cpp
+
+
+
 
 
 

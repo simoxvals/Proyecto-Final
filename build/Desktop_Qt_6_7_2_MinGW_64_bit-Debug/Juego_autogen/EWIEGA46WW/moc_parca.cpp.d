@@ -1,6 +1,5 @@
 C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica\ II/ProyectoFinal/Juego/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Juego_autogen/EWIEGA46WW/moc_parca.cpp: C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica\ II/ProyectoFinal/Juego/parca.h \
   C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica\ II/ProyectoFinal/Juego/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Juego_autogen/moc_predefs.h \
-  C:/Qt/6.7.2/mingw_64/include/QtCore/QList \
   C:/Qt/6.7.2/mingw_64/include/QtCore/QObject \
   C:/Qt/6.7.2/mingw_64/include/QtCore/QTimer \
   C:/Qt/6.7.2/mingw_64/include/QtCore/q20functional.h \
@@ -60,6 +59,7 @@ C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica\ II/ProyectoFinal/Jue
   C:/Qt/6.7.2/mingw_64/include/QtCore/qmargins.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qmath.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qmetacontainer.h \
+  C:/Qt/6.7.2/mingw_64/include/QtCore/qmetaobject.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qmetatype.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qminmax.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qnamespace.h \
@@ -116,6 +116,7 @@ C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica\ II/ProyectoFinal/Jue
   C:/Qt/6.7.2/mingw_64/include/QtCore/qtversionchecks.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qtypeinfo.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qtypes.h \
+  C:/Qt/6.7.2/mingw_64/include/QtCore/qurl.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qutf8stringview.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qvariant.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qvarlengtharray.h \
@@ -141,6 +142,16 @@ C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica\ II/ProyectoFinal/Jue
   C:/Qt/6.7.2/mingw_64/include/QtGui/qtransform.h \
   C:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs_win.h \
+  C:/Qt/6.7.2/mingw_64/include/QtMultimedia/QAudioOutput \
+  C:/Qt/6.7.2/mingw_64/include/QtMultimedia/QMediaPlayer \
+  C:/Qt/6.7.2/mingw_64/include/QtMultimedia/qaudio.h \
+  C:/Qt/6.7.2/mingw_64/include/QtMultimedia/qaudiooutput.h \
+  C:/Qt/6.7.2/mingw_64/include/QtMultimedia/qmediaenumdebug.h \
+  C:/Qt/6.7.2/mingw_64/include/QtMultimedia/qmediaplayer.h \
+  C:/Qt/6.7.2/mingw_64/include/QtMultimedia/qtaudio.h \
+  C:/Qt/6.7.2/mingw_64/include/QtMultimedia/qtmultimedia-config.h \
+  C:/Qt/6.7.2/mingw_64/include/QtMultimedia/qtmultimediaexports.h \
+  C:/Qt/6.7.2/mingw_64/include/QtMultimedia/qtmultimediaglobal.h \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/QGraphicsPixmapItem \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/QGraphicsScene \
   C:/Qt/6.7.2/mingw_64/include/QtWidgets/qgraphicsitem.h \
@@ -347,4 +358,5 @@ C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica\ II/ProyectoFinal/Jue
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica\ II/ProyectoFinal/Juego/hacha.h
+  C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica\ II/ProyectoFinal/Juego/hacha.h \
+  C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica\ II/ProyectoFinal/Juego/personaje.h

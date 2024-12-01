@@ -314,6 +314,12 @@
 			null
 		],
 		[
+			"C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica II/ProyectoFinal/Juego/fuego.h",
+			"MU",
+			"EWIEGA46WW/moc_fuego.cpp",
+			null
+		],
+		[
 			"C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica II/ProyectoFinal/Juego/gema.h",
 			"MU",
 			"EWIEGA46WW/moc_gema.cpp",
@@ -457,6 +463,11 @@
 	[
 		[
 			"C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica II/ProyectoFinal/Juego/bart.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica II/ProyectoFinal/Juego/fuego.cpp",
 			"MU",
 			null
 		],

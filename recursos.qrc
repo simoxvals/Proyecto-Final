@@ -7,6 +7,22 @@
         <file>gema.png</file>
         <file>parca.png</file>
         <file>fondo.jpg</file>
-        <file>hacha.png</file>
+        <file>bart1golpe.png</file>
+        <file>bart2golpe.png</file>
+        <file>bart3golpe.png</file>
+        <file>fuegos.png</file>
+        <file>hacha4.png</file>
+        <file>hacha3.png</file>
+        <file>hacha2.png</file>
+        <file>hacha1.png</file>
+        <file>hachasonido.mp3</file>
+        <file>fuego.png</file>
+        <file>victory.png</file>
+        <file>losing.png</file>
+        <file>bartI.png</file>
+        <file>fuegoS.mp3</file>
+        <file>golpeS.mp3</file>
+        <file>parcaS.mp3</file>
+        <file>gemaS.mp3</file>
     </qresource>
 </RCC>

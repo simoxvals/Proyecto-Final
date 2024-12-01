@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-285b0e5f859c987e9138.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Juego",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Juego::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Juego-Release-3f9f678183cdd3e5ffbc.json",
+					"name" : "Juego",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Juego_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Juego_autogen-Release-566f4d3da3d048410a0b.json",
+					"name" : "Juego_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Juego_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Juego_autogen_timestamp_deps-Release-2197bce26babe0f01dc2.json",
+					"name" : "Juego_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica II/ProyectoFinal/Juego/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release",
+		"source" : "C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica II/ProyectoFinal/Juego"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

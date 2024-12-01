@@ -1,0 +1,45 @@
+# ninja log v6
+24	16125	7546874042296452	Juego_autogen/timestamp	1b6ff0c3831a27e1
+24	16125	7546874042296452	Juego_autogen/mocs_compilation.cpp	1b6ff0c3831a27e1
+24	16125	7546874042296452	C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica II/ProyectoFinal/Juego/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Juego_autogen/timestamp	1b6ff0c3831a27e1
+24	16125	7546874042296452	C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica II/ProyectoFinal/Juego/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Juego_autogen/mocs_compilation.cpp	1b6ff0c3831a27e1
+16164	17731	7546874061262777	Juego_autogen/EWIEGA46WW/qrc_recursos.cpp	f7c586f962f629f0
+16164	17731	7546874061262777	C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica II/ProyectoFinal/Juego/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Juego_autogen/EWIEGA46WW/qrc_recursos.cpp	f7c586f962f629f0
+17781	47430	7546874062083131	CMakeFiles/Juego.dir/registerdialog.cpp.obj	a89b08b665d88e58
+17771	48112	7546874061979402	CMakeFiles/Juego.dir/logindialog.cpp.obj	e85e0aeb5e7460f4
+17753	48895	7546874061801072	CMakeFiles/Juego.dir/mainwindow.cpp.obj	49d0b525d831f102
+17744	49420	7546874061684281	CMakeFiles/Juego.dir/main.cpp.obj	c32d83ea1251f9c3
+17763	50416	7546874061894781	CMakeFiles/Juego.dir/ventana.cpp.obj	5d126d82ed7bd05c
+17732	53505	7546874061583787	CMakeFiles/Juego.dir/Juego_autogen/mocs_compilation.cpp.obj	c0d97280ae2a1d5
+48112	61129	7546874365384677	CMakeFiles/Juego.dir/personaje.cpp.obj	c2c85ed967add185
+49421	62113	7546874378473860	CMakeFiles/Juego.dir/objeto.cpp.obj	82e0148edbd32548
+47430	64402	7546874358575962	CMakeFiles/Juego.dir/nivel.cpp.obj	d967349b8c5b04f7
+53506	65667	7546874419326778	CMakeFiles/Juego.dir/gema.cpp.obj	b602d1bf044feaf9
+50417	66544	7546874388439530	CMakeFiles/Juego.dir/bart.cpp.obj	7a4853d30221f290
+48895	71687	7546874373222097	CMakeFiles/Juego.dir/nivel1.cpp.obj	2be1ee1a6f3f0753
+62113	78748	7546874505401210	CMakeFiles/Juego.dir/hacha.cpp.obj	1c221f4959518572
+61130	78836	7546874495565263	CMakeFiles/Juego.dir/parca.cpp.obj	36b758fb895f220
+64403	79888	7546874528293066	CMakeFiles/Juego.dir/fuego.cpp.obj	602675ba9f5d5717
+65667	107066	7546874540942159	CMakeFiles/Juego.dir/Juego_autogen/EWIEGA46WW/qrc_recursos.cpp.obj	a50247d39cb3b630
+107068	107901	7546874954941030	Juego.exe	3454eb9d86dd3840
+473	1621	7546876008329294	Juego_autogen/timestamp	1b6ff0c3831a27e1
+473	1621	7546876008329294	Juego_autogen/mocs_compilation.cpp	1b6ff0c3831a27e1
+473	1621	7546876008329294	C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica II/ProyectoFinal/Juego/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Juego_autogen/timestamp	1b6ff0c3831a27e1
+473	1621	7546876008329294	C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica II/ProyectoFinal/Juego/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Juego_autogen/mocs_compilation.cpp	1b6ff0c3831a27e1
+1624	19589	7546876019954815	CMakeFiles/Juego.dir/nivel1.cpp.obj	2be1ee1a6f3f0753
+19590	20744	7546876199608531	Juego.exe	3454eb9d86dd3840
+55	779	7546917109347454	Juego_autogen/timestamp	1b6ff0c3831a27e1
+55	779	7546917109347454	Juego_autogen/mocs_compilation.cpp	1b6ff0c3831a27e1
+55	779	7546917109347454	C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica II/ProyectoFinal/Juego/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Juego_autogen/timestamp	1b6ff0c3831a27e1
+55	779	7546917109347454	C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica II/ProyectoFinal/Juego/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Juego_autogen/mocs_compilation.cpp	1b6ff0c3831a27e1
+783	8599	7546917116682490	CMakeFiles/Juego.dir/ventana.cpp.obj	5d126d82ed7bd05c
+8599	9717	7546917194851765	Juego.exe	3454eb9d86dd3840
+53	2869	7546919320120958	Juego_autogen/timestamp	1b6ff0c3831a27e1
+53	2869	7546919320120958	Juego_autogen/mocs_compilation.cpp	1b6ff0c3831a27e1
+53	2869	7546919320120958	C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica II/ProyectoFinal/Juego/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Juego_autogen/timestamp	1b6ff0c3831a27e1
+53	2869	7546919320120958	C:/Users/HP/OneDrive/green/green/Ingenieria/II/Informatica II/ProyectoFinal/Juego/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/Juego_autogen/mocs_compilation.cpp	1b6ff0c3831a27e1
+2882	12717	7546919323169032	CMakeFiles/Juego.dir/main.cpp.obj	c32d83ea1251f9c3
+2894	12943	7546919323326358	CMakeFiles/Juego.dir/mainwindow.cpp.obj	49d0b525d831f102
+2901	13014	7546919323391907	CMakeFiles/Juego.dir/ventana.cpp.obj	5d126d82ed7bd05c
+2873	14076	7546919323116920	CMakeFiles/Juego.dir/Juego_autogen/mocs_compilation.cpp.obj	c0d97280ae2a1d5
+14077	15144	7546919435154966	Juego.exe	3454eb9d86dd3840

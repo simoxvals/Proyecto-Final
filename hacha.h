@@ -1,24 +1,30 @@
-// hacha.h
 #ifndef HACHA_H
 #define HACHA_H
 
 #include <QGraphicsPixmapItem>
 #include <QTimer>
 
-class Hacha : public QObject, public QGraphicsPixmapItem {
+
+
+class Hacha : public QObject, public QGraphicsPixmapItem
+{
     Q_OBJECT
 
 public:
-    Hacha(int xInicial, int yInicial, int velocidadX, int velocidadY);
-    ~Hacha();
-
+    Hacha(int xInicial, int yInicial, float velocidadX, float velocidadY);
+    float getVelocidadX() const { return velocidadX; }
     void mover();
-    bool isEliminada() const { return eliminada; }
+    void animarGiro();
+
 private:
-    int velocidadX;
-    int velocidadY;
-    QTimer *movimientoTimer;
+    float velocidadX;
+    float velocidadY;
+    int indiceImagen;
     bool eliminada;
+    QTimer *animacionTimer;
+    QTimer *movimientoTimer;
+    QStringList imagenesGiro;
+
 };
 
 #endif // HACHA_H
